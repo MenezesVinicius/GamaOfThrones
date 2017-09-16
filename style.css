@@ -1,20 +1,74 @@
 body {
     font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
+    color: #c2c2c2;
+    margin: 10px;
 }
 h3, h4 {
     margin: 10px 0 30px 0;
     letter-spacing: 10px;
     font-size: 20px;
-    color: #111;
+    /*color: #111;*/
+}
+
+.Hackaton-Smart-Citie {
+    width: 388px;
+    height: 138px;
+    font-family: OpenSans;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.08;
+    text-align: left;
+    color: #270f67 ;
+}
+
+.Desenvolva-solues {
+    width: 486.1px;
+    height: 80px;
+    font-family: OpenSans;
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: left;
+    color: #525252 ;
+}
+
+.datadata {
+    width: 486.1px;
+    height: 64px;
+    opacity: 0.43;
+    font-family: OpenSans;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #535353 ;
+}
+
+.rectangle-2 {
+    width: 282.5px;
+    height: 70.8px;
+    border-radius: 6px;
+    background-color: #b71b56 ;
+}
+
+.Increva-se {
+    width: 185px;
+    height: 54px;
+    font-family: OpenSans;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff ;
+    color: var(--white);
 }
 
 #back_img{
-    background-image: url('images/fundo.png');
-    background-position: 50%;
+    background-image: url('images/fundo.jpg');
+    background-size: cover;
     width: auto;
     background-repeat: no-repeat;
-    height: 700px;
+    background-position: center;
+    min-height: 500px;
 }
 .container {
     padding: 80px 120px;
@@ -36,7 +90,7 @@ h3, h4 {
     }
 }
 .bg-1 {
-    background: #2d2d30;
+    /*background: #2d2d30;*/
     color: #bdbdbd;
 }
 .bg-1 h3 {color: #fff;}
@@ -71,8 +125,8 @@ h3, h4 {
     color: #000;
 }
 .modal-header, h4, .close {
-    background-color: #333;
-    color: #fff !important;
+    /*background-color: #333;*/
+    /*color: #fff !important;*/
     text-align: center;
     font-size: 30px;
 }
